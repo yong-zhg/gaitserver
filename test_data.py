@@ -7,8 +7,8 @@
                  "height" : 172,
                  "weight" : 60,
                  "sex" : 1,
-                 "birthday" : "1994-10-1",
-                 "email" : "123456@qq.com"
+                 "birthday" : "1990-10-17",
+                 "email" : "yong_zhg@sina.com"
          }
 }
 {
@@ -19,8 +19,8 @@
                  "height" : 172,
                  "weight" : 60,
                  "sex" : 1,
-                 "birthday" : "1994-10-2",
-                 "email" : "123457@qq.com"
+                 "birthday" : "1990-9-17",
+                 "email" : "yong_zhg@sina.com"
          }
 }
 
