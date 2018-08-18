@@ -1,0 +1,1981 @@
+2016-05-31 10:28:57,128 [Thread-24:6612] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /data/step/query/pages
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python34\Lib\site-packages\django\bin\gait-server-2\Data\views.py", line 922, in data_steps_query_pages
+    return HttpResponse(simplejson.dumps(result), content_type="application/json")
+UnboundLocalError: local variable 'result' referenced before assignment
+2016-05-31 10:44:31,499 [Thread-24:6100] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /data/step/query/pages
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python34\Lib\site-packages\django\bin\gait-server-2\Data\views.py", line 919, in data_steps_query_pages
+    return HttpResponse(simplejson.dumps(result), content_type="application/json")
+UnboundLocalError: local variable 'result' referenced before assignment
+2016-06-07 15:38:41,815 [Thread-25:4868] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\views.py", line 454, in velocity
+    data = simplejson.loads(req.body)
+  File "D:\Python34\lib\site-packages\simplejson-3.8.2-py3.4-win-amd64.egg\simplejson\__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python34\lib\site-packages\simplejson-3.8.2-py3.4-win-amd64.egg\simplejson\decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "D:\Python34\lib\site-packages\simplejson-3.8.2-py3.4-win-amd64.egg\simplejson\decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.scanner.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2016-06-07 15:41:18,096 [Thread-2:3888] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\views.py", line 454, in velocity
+    data = simplejson.loads(req.body)
+  File "D:\Python34\lib\site-packages\simplejson-3.8.2-py3.4-win-amd64.egg\simplejson\__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python34\lib\site-packages\simplejson-3.8.2-py3.4-win-amd64.egg\simplejson\decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "D:\Python34\lib\site-packages\simplejson-3.8.2-py3.4-win-amd64.egg\simplejson\decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.scanner.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2016-06-07 15:46:35,060 [Thread-2:3276] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\views.py", line 454, in velocity
+    data = simplejson.loads(req.body)
+  File "D:\Python34\lib\site-packages\simplejson-3.8.2-py3.4-win-amd64.egg\simplejson\__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python34\lib\site-packages\simplejson-3.8.2-py3.4-win-amd64.egg\simplejson\decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "D:\Python34\lib\site-packages\simplejson-3.8.2-py3.4-win-amd64.egg\simplejson\decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.scanner.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2016-06-07 15:53:14,338 [Thread-2:1960] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 11, in velocity
+    d=Pressure.objects.filter(user).device_id[0]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1146, in build_filter
+    arg, value = filter_expr
+ValueError: need more than 1 value to unpack
+2016-06-07 15:55:34,019 [Thread-2:3396] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp.save()
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1059, in execute_sql
+    for sql, params in self.as_sql():
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in as_sql
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in <listcomp>
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1018, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 958, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\fields\__init__.py", line 1612, in get_db_prep_save
+    self.max_digits, self.decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\base\operations.py", line 493, in adapt_decimalfield_value
+    return utils.format_number(value, max_digits, decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 200, in format_number
+    value = value.quantize(decimal.Decimal(".1") ** decimal_places, context=context)
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+2016-06-07 15:56:16,980 [Thread-2:2724] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp.save()
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1059, in execute_sql
+    for sql, params in self.as_sql():
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in as_sql
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in <listcomp>
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1018, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 958, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\fields\__init__.py", line 1612, in get_db_prep_save
+    self.max_digits, self.decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\base\operations.py", line 493, in adapt_decimalfield_value
+    return utils.format_number(value, max_digits, decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 200, in format_number
+    value = value.quantize(decimal.Decimal(".1") ** decimal_places, context=context)
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+2016-06-07 16:00:24,155 [Thread-2:5060] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp.save()
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1059, in execute_sql
+    for sql, params in self.as_sql():
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in as_sql
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in <listcomp>
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1018, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 958, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\fields\__init__.py", line 1612, in get_db_prep_save
+    self.max_digits, self.decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\base\operations.py", line 493, in adapt_decimalfield_value
+    return utils.format_number(value, max_digits, decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 200, in format_number
+    value = value.quantize(decimal.Decimal(".1") ** decimal_places, context=context)
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+2016-06-07 16:08:48,003 [Thread-2:3376] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 12, in velocity
+    velocitytemp = Velocity(velocity=1.12, distance='adskdf')
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 451, in __init__
+    raise TypeError("'%s' is an invalid keyword argument for this function" % list(kwargs)[0])
+TypeError: 'velocity' is an invalid keyword argument for this function
+2016-06-07 16:09:22,592 [Thread-2:1660] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 12, in velocity
+    velocitytemp = Velocity(velocity=10, distance='adskdf')
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 451, in __init__
+    raise TypeError("'%s' is an invalid keyword argument for this function" % list(kwargs)[0])
+TypeError: 'velocity' is an invalid keyword argument for this function
+2016-06-07 16:09:31,441 [Thread-3:4540] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 12, in velocity
+    velocitytemp = Velocity(velocity=10, distance='adskdf')
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 451, in __init__
+    raise TypeError("'%s' is an invalid keyword argument for this function" % list(kwargs)[0])
+TypeError: 'velocity' is an invalid keyword argument for this function
+2016-06-07 16:11:13,191 [Thread-2:3248] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 12, in velocity
+    velocitytemp = Velocity(velocity=10, distance='adskdf')
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 451, in __init__
+    raise TypeError("'%s' is an invalid keyword argument for this function" % list(kwargs)[0])
+TypeError: 'velocity' is an invalid keyword argument for this function
+2016-06-07 16:12:26,353 [Thread-2:2852] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view mysiteApp.velocity.velocity didn't return an HttpResponse object. It returned None instead.
+2016-06-07 16:16:58,714 [Thread-2:3288] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\mysql\base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\cursors.py", line 161, in execute
+    result = self._query(query)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\cursors.py", line 317, in _query
+    conn.query(q)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 835, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 1019, in _read_query_result
+    result.read()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 1302, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 981, in _read_packet
+    packet.check_error()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\err.py", line 120, in raise_mysql_exception
+    _check_mysql_exception(errinfo)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\err.py", line 115, in _check_mysql_exception
+    raise InternalError(errno, errorvalue)
+pymysql.err.InternalError: (1054, "Unknown column 'velocity' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 14, in velocity
+    velocitytemp.save()
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1060, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\utils.py", line 95, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\utils\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\mysql\base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\cursors.py", line 161, in execute
+    result = self._query(query)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\cursors.py", line 317, in _query
+    conn.query(q)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 835, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 1019, in _read_query_result
+    result.read()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 1302, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 981, in _read_packet
+    packet.check_error()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\err.py", line 120, in raise_mysql_exception
+    _check_mysql_exception(errinfo)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\err.py", line 115, in _check_mysql_exception
+    raise InternalError(errno, errorvalue)
+django.db.utils.InternalError: (1054, "Unknown column 'velocity' in 'field list'")
+2016-06-07 16:24:55,404 [Thread-2:3264] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 14, in velocity
+    velocitytemp.save()
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1059, in execute_sql
+    for sql, params in self.as_sql():
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in as_sql
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in <listcomp>
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1018, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 958, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\fields\__init__.py", line 1612, in get_db_prep_save
+    self.max_digits, self.decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\base\operations.py", line 493, in adapt_decimalfield_value
+    return utils.format_number(value, max_digits, decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 200, in format_number
+    value = value.quantize(decimal.Decimal(".1") ** decimal_places, context=context)
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+2016-06-07 16:27:27,721 [Thread-2:4092] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 14, in velocity
+    velocitytemp.save()
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1059, in execute_sql
+    for sql, params in self.as_sql():
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in as_sql
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in <listcomp>
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1018, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 958, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\fields\__init__.py", line 1612, in get_db_prep_save
+    self.max_digits, self.decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\base\operations.py", line 493, in adapt_decimalfield_value
+    return utils.format_number(value, max_digits, decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 200, in format_number
+    value = value.quantize(decimal.Decimal(".1") ** decimal_places, context=context)
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+2016-06-07 16:27:29,248 [Thread-3:1456] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 14, in velocity
+    velocitytemp.save()
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1059, in execute_sql
+    for sql, params in self.as_sql():
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in as_sql
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in <listcomp>
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1018, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 958, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\fields\__init__.py", line 1612, in get_db_prep_save
+    self.max_digits, self.decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\base\operations.py", line 493, in adapt_decimalfield_value
+    return utils.format_number(value, max_digits, decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 200, in format_number
+    value = value.quantize(decimal.Decimal(".1") ** decimal_places, context=context)
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+2016-06-07 16:27:31,284 [Thread-4:2836] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 14, in velocity
+    velocitytemp.save()
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1059, in execute_sql
+    for sql, params in self.as_sql():
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in as_sql
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in <listcomp>
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1018, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 958, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\fields\__init__.py", line 1612, in get_db_prep_save
+    self.max_digits, self.decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\base\operations.py", line 493, in adapt_decimalfield_value
+    return utils.format_number(value, max_digits, decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 200, in format_number
+    value = value.quantize(decimal.Decimal(".1") ** decimal_places, context=context)
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+2016-06-07 16:38:03,002 [Thread-2:2404] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 14, in velocity
+    velocitytemp.save()
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1059, in execute_sql
+    for sql, params in self.as_sql():
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in as_sql
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in <listcomp>
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1018, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 958, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\fields\__init__.py", line 1612, in get_db_prep_save
+    self.max_digits, self.decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\base\operations.py", line 493, in adapt_decimalfield_value
+    return utils.format_number(value, max_digits, decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 200, in format_number
+    value = value.quantize(decimal.Decimal(".1") ** decimal_places, context=context)
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+2016-06-07 16:38:31,876 [Thread-4:4652] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 14, in velocity
+    velocitytemp.save()
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1059, in execute_sql
+    for sql, params in self.as_sql():
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in as_sql
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1019, in <listcomp>
+    for obj in self.query.objs
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1018, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 958, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\fields\__init__.py", line 1612, in get_db_prep_save
+    self.max_digits, self.decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\base\operations.py", line 493, in adapt_decimalfield_value
+    return utils.format_number(value, max_digits, decimal_places)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 200, in format_number
+    value = value.quantize(decimal.Decimal(".1") ** decimal_places, context=context)
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+2016-06-07 16:48:57,055 [Thread-2:3592] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view mysiteApp.velocity.velocity didn't return an HttpResponse object. It returned None instead.
+2016-06-07 16:51:08,128 [Thread-4:3948] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view mysiteApp.velocity.velocity didn't return an HttpResponse object. It returned None instead.
+2016-06-07 17:02:58,081 [Thread-2:5840] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 12, in velocity
+    d=Pressure.objects.filter(user).device_id[0]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1146, in build_filter
+    arg, value = filter_expr
+ValueError: need more than 1 value to unpack
+2016-06-07 17:03:51,449 [Thread-2:1556] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 12, in velocity
+    d=Pressure.objects.filter(user).device_id[0]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1146, in build_filter
+    arg, value = filter_expr
+TypeError: 'User' object is not iterable
+2016-06-07 17:04:47,426 [Thread-2:1508] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 12, in velocity
+    d=Pressure.objects.filter(user).device_id[0]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1146, in build_filter
+    arg, value = filter_expr
+ValueError: need more than 1 value to unpack
+2016-06-07 17:05:06,668 [Thread-2:3896] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 12, in velocity
+    d=Pressure.objects.filter(user).device_id[0]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1146, in build_filter
+    arg, value = filter_expr
+TypeError: 'User' object is not iterable
+2016-06-07 17:07:26,826 [Thread-2:2812] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 7, in velocity
+    user1=User.objects.filter(name='1').user_id[0]
+AttributeError: 'QuerySet' object has no attribute 'user_id'
+2016-06-07 17:08:49,527 [Thread-2:5972] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 7, in velocity
+    user1=User.objects.filter(name='1').user_id
+AttributeError: 'QuerySet' object has no attribute 'user_id'
+2016-06-07 17:08:51,846 [Thread-3:2836] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 7, in velocity
+    user1=User.objects.filter(name='1').user_id
+AttributeError: 'QuerySet' object has no attribute 'user_id'
+2016-06-07 17:09:11,565 [Thread-2:5524] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 7, in velocity
+    user1=User.objects.filter(name='1').user
+AttributeError: 'QuerySet' object has no attribute 'user'
+2016-06-07 17:15:49,978 [Thread-2:5708] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 7, in velocity
+    user=User.objects.filter(name='1').id
+AttributeError: 'QuerySet' object has no attribute 'id'
+2016-06-07 17:15:52,753 [Thread-3:5180] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 7, in velocity
+    user=User.objects.filter(name='1').id
+AttributeError: 'QuerySet' object has no attribute 'id'
+2016-06-07 17:16:08,261 [Thread-2:3896] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 12, in velocity
+    d=Pressure.objects.filter(user).device_id[0]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1146, in build_filter
+    arg, value = filter_expr
+ValueError: need more than 1 value to unpack
+2016-06-07 17:19:43,082 [Thread-2:2156] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    d=Pressure.objects.filter(user).device_id[0]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1146, in build_filter
+    arg, value = filter_expr
+ValueError: need more than 1 value to unpack
+2016-06-07 17:39:30,912 [Thread-2:5904] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 8, in velocity
+    user_name=user.name
+AttributeError: 'QuerySet' object has no attribute 'name'
+2016-06-07 18:54:05,603 [Thread-2:1420] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User.velocity_set.all()
+AttributeError: type object 'User' has no attribute 'velocity_set'
+2016-06-07 18:54:14,499 [Thread-3:5168] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User.velocity_set.all()
+AttributeError: type object 'User' has no attribute 'velocity_set'
+2016-06-07 18:54:15,412 [Thread-4:5444] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User.velocity_set.all()
+AttributeError: type object 'User' has no attribute 'velocity_set'
+2016-06-07 18:54:15,963 [Thread-5:4980] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User.velocity_set.all()
+AttributeError: type object 'User' has no attribute 'velocity_set'
+2016-06-07 18:55:02,060 [Thread-2:1352] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User.name
+AttributeError: type object 'User' has no attribute 'name'
+2016-06-07 18:55:30,625 [Thread-2:3940] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 14, in velocity
+    d=Pressure.objects.filter(user).device_id[0]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1146, in build_filter
+    arg, value = filter_expr
+ValueError: need more than 1 value to unpack
+2016-06-07 18:55:53,388 [Thread-2:4164] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User._check_id_field()[1]
+IndexError: list index out of range
+2016-06-07 18:56:05,939 [Thread-2:5748] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User._check_id_field()[0]
+IndexError: list index out of range
+2016-06-07 18:56:07,713 [Thread-3:5356] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User._check_id_field()[0]
+IndexError: list index out of range
+2016-06-07 18:56:08,587 [Thread-4:4660] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User._check_id_field()[0]
+IndexError: list index out of range
+2016-06-07 18:56:09,027 [Thread-5:2724] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User._check_id_field()[0]
+IndexError: list index out of range
+2016-06-07 18:56:09,353 [Thread-6:2728] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User._check_id_field()[0]
+IndexError: list index out of range
+2016-06-07 18:58:03,632 [Thread-2:5524] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User.name
+AttributeError: type object 'User' has no attribute 'name'
+2016-06-07 18:58:40,733 [Thread-2:5392] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User.name
+AttributeError: type object 'User' has no attribute 'name'
+2016-06-07 18:58:42,914 [Thread-3:1760] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User.name
+AttributeError: type object 'User' has no attribute 'name'
+2016-06-07 18:58:43,635 [Thread-4:3548] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User.name
+AttributeError: type object 'User' has no attribute 'name'
+2016-06-07 18:58:43,934 [Thread-5:5852] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User.name
+AttributeError: type object 'User' has no attribute 'name'
+2016-06-07 18:58:44,222 [Thread-6:5476] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User.name
+AttributeError: type object 'User' has no attribute 'name'
+2016-06-07 18:58:44,486 [Thread-7:5744] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User.name
+AttributeError: type object 'User' has no attribute 'name'
+2016-06-07 18:58:44,708 [Thread-8:3944] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp1=User.name
+AttributeError: type object 'User' has no attribute 'name'
+2016-06-07 19:50:06,827 [Thread-2:4300] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 14, in velocity
+    d = Pressure.objects.filter(user)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1146, in build_filter
+    arg, value = filter_expr
+ValueError: need more than 1 value to unpack
+2016-06-07 19:50:28,458 [Thread-2:2696] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 14, in velocity
+    d = Pressure.objects.filter(user)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1146, in build_filter
+    arg, value = filter_expr
+TypeError: 'User' object is not iterable
+2016-06-07 19:51:25,158 [Thread-2:5192] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 14, in velocity
+    d = Pressure.objects.filter(user)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1146, in build_filter
+    arg, value = filter_expr
+ValueError: need more than 1 value to unpack
+2016-06-07 19:53:57,831 [Thread-2:1356] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    velocitytemp.device_id=d.device_id
+AttributeError: 'QuerySet' object has no attribute 'device_id'
+2016-06-07 19:55:09,209 [Thread-2:3932] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    velocitytemp.device_id=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 19:59:30,791 [Thread-2:5348] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    velocitytemp.device_id=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:00:37,311 [Thread-2:6020] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    velocitytemp['device_id']=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:03:23,112 [Thread-2:5812] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp['device_id']=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:08:15,840 [Thread-2:4056] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp['device_id']=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:08:18,316 [Thread-3:5724] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp['device_id']=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:08:40,290 [Thread-2:5524] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp['device_id']=d['device_id']
+TypeError: 'Pressure' object is not subscriptable
+2016-06-07 20:09:21,175 [Thread-2:5560] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp['device_id']=d['device_id']
+TypeError: 'Pressure' object is not subscriptable
+2016-06-07 20:10:10,407 [Thread-2:5716] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp['device_id']=d[0]['device_id']
+TypeError: 'Pressure' object is not subscriptable
+2016-06-07 20:10:11,859 [Thread-3:3904] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp['device_id']=d[0]['device_id']
+TypeError: 'Pressure' object is not subscriptable
+2016-06-07 20:10:12,516 [Thread-4:5832] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp['device_id']=d[0]['device_id']
+TypeError: 'Pressure' object is not subscriptable
+2016-06-07 20:10:12,805 [Thread-5:3388] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp['device_id']=d[0]['device_id']
+TypeError: 'Pressure' object is not subscriptable
+2016-06-07 20:10:13,085 [Thread-6:3820] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp['device_id']=d[0]['device_id']
+TypeError: 'Pressure' object is not subscriptable
+2016-06-07 20:11:07,633 [Thread-2:6020] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp['device_id']=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:11:09,850 [Thread-3:1048] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp['device_id']=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:11:10,864 [Thread-4:6028] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp['device_id']=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:11:33,541 [Thread-2:5560] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp.device_id=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:11:34,556 [Thread-3:6072] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp.device_id=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:11:35,258 [Thread-4:2468] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp.device_id=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:11:35,558 [Thread-5:2424] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp.device_id=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:11:35,846 [Thread-6:6132] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp.device_id=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:11:36,145 [Thread-7:5576] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp.device_id=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:11:36,584 [Thread-8:456] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp.device_id=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:11:37,255 [Thread-9:5556] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp.device_id=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:11:38,024 [Thread-10:4496] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp.device_id=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:11:39,089 [Thread-11:6076] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 16, in velocity
+    velocitytemp.device_id=d['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:13:34,433 [Thread-2:5744] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 17, in velocity
+    velocitytemp.device_id=d[tem]['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:14:02,506 [Thread-5:2804] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 17, in velocity
+    velocitytemp.device_id=d[tem]['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:16:24,598 [Thread-2:1920] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 17, in velocity
+    velocitytemp.device_id=d[tem]['device_id']
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 273, in __getitem__
+    raise TypeError
+TypeError
+2016-06-07 20:19:27,038 [Thread-2:6032] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(id=1)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+mysiteApp.models.DoesNotExist: Pressure matching query does not exist.
+2016-06-07 20:20:00,909 [Thread-2:4740] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(id=3)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+mysiteApp.models.DoesNotExist: Pressure matching query does not exist.
+2016-06-07 20:20:03,109 [Thread-3:4220] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(id=3)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+mysiteApp.models.DoesNotExist: Pressure matching query does not exist.
+2016-06-07 20:20:04,171 [Thread-4:964] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(id=3)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+mysiteApp.models.DoesNotExist: Pressure matching query does not exist.
+2016-06-07 20:20:04,916 [Thread-5:2396] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(id=3)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+mysiteApp.models.DoesNotExist: Pressure matching query does not exist.
+2016-06-07 20:20:05,500 [Thread-6:4984] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(id=3)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+mysiteApp.models.DoesNotExist: Pressure matching query does not exist.
+2016-06-07 20:20:25,718 [Thread-2:5872] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\mysql\base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\cursors.py", line 161, in execute
+    result = self._query(query)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\cursors.py", line 317, in _query
+    conn.query(q)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 835, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 1019, in _read_query_result
+    result.read()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 1302, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 981, in _read_packet
+    packet.check_error()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\err.py", line 120, in raise_mysql_exception
+    _check_mysql_exception(errinfo)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\err.py", line 112, in _check_mysql_exception
+    raise errorclass(errno, errorvalue)
+pymysql.err.IntegrityError: (1048, "Column 'velocity' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 19, in velocity
+    velocitytemp.save()
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1060, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\utils.py", line 95, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\utils\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\mysql\base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\cursors.py", line 161, in execute
+    result = self._query(query)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\cursors.py", line 317, in _query
+    conn.query(q)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 835, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 1019, in _read_query_result
+    result.read()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 1302, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 981, in _read_packet
+    packet.check_error()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\err.py", line 120, in raise_mysql_exception
+    _check_mysql_exception(errinfo)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\err.py", line 112, in _check_mysql_exception
+    raise errorclass(errno, errorvalue)
+django.db.utils.IntegrityError: (1048, "Column 'velocity' cannot be null")
+2016-06-07 20:21:27,228 [Thread-2:3384] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view mysiteApp.velocity.velocity didn't return an HttpResponse object. It returned None instead.
+2016-06-07 20:24:06,093 [Thread-2:3820] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(user=user)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 391, in get
+    (self.model._meta.object_name, num)
+mysiteApp.models.MultipleObjectsReturned: get() returned more than one Pressure -- it returned 982441!
+2016-06-07 20:26:21,667 [Thread-5:132] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view mysiteApp.velocity.velocity didn't return an HttpResponse object. It returned None instead.
+2016-06-07 20:27:08,752 [Thread-2:5740] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(user=user)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 391, in get
+    (self.model._meta.object_name, num)
+mysiteApp.models.MultipleObjectsReturned: get() returned more than one Pressure -- it returned 982441!
+2016-06-07 20:28:16,745 [Thread-2:2768] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(user=user)[0]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 391, in get
+    (self.model._meta.object_name, num)
+mysiteApp.models.MultipleObjectsReturned: get() returned more than one Pressure -- it returned 982441!
+2016-06-07 20:31:36,598 [Thread-5:4944] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(user=user)[0]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 391, in get
+    (self.model._meta.object_name, num)
+mysiteApp.models.MultipleObjectsReturned: get() returned more than one Pressure -- it returned 982441!
+2016-06-07 20:35:16,341 [Thread-2:6936] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(user=user)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 391, in get
+    (self.model._meta.object_name, num)
+mysiteApp.models.MultipleObjectsReturned: get() returned more than one Pressure -- it returned 982441!
+2016-06-07 20:36:28,521 [Thread-2:6320] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(user=user)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 391, in get
+    (self.model._meta.object_name, num)
+mysiteApp.models.MultipleObjectsReturned: get() returned more than one Pressure -- it returned 982441!
+2016-06-07 20:38:01,642 [Thread-2:4976] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view mysiteApp.velocity.velocity didn't return an HttpResponse object. It returned None instead.
+2016-06-07 20:41:22,801 [Thread-2:6836] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(user=user)[1:1]
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 391, in get
+    (self.model._meta.object_name, num)
+mysiteApp.models.MultipleObjectsReturned: get() returned more than one Pressure -- it returned 982441!
+2016-06-07 20:42:29,556 [Thread-2:7124] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(id=3)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+mysiteApp.models.DoesNotExist: Pressure matching query does not exist.
+2016-06-07 20:42:52,566 [Thread-2:7104] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(id=1)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+mysiteApp.models.DoesNotExist: Pressure matching query does not exist.
+2016-06-07 20:44:19,414 [Thread-2:1424] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(id=5)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+mysiteApp.models.DoesNotExist: Pressure matching query does not exist.
+2016-06-07 20:44:21,309 [Thread-3:5132] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(id=5)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+mysiteApp.models.DoesNotExist: Pressure matching query does not exist.
+2016-06-07 20:44:23,114 [Thread-4:3976] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(id=5)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+mysiteApp.models.DoesNotExist: Pressure matching query does not exist.
+2016-06-07 20:44:24,272 [Thread-5:2912] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(id=5)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+mysiteApp.models.DoesNotExist: Pressure matching query does not exist.
+2016-06-07 20:44:24,982 [Thread-6:6960] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(id=5)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+mysiteApp.models.DoesNotExist: Pressure matching query does not exist.
+2016-06-07 20:44:25,567 [Thread-7:3076] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.get(id=5)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+mysiteApp.models.DoesNotExist: Pressure matching query does not exist.
+2016-06-07 20:46:18,028 [Thread-2:4168] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    d = Pressure.objects.filters(user=user)[0]
+AttributeError: 'Manager' object has no attribute 'filters'
+2016-06-07 20:46:41,154 [Thread-2:7164] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view mysiteApp.velocity.velocity didn't return an HttpResponse object. It returned None instead.
+2016-06-07 20:47:28,909 [Thread-2:6600] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view mysiteApp.velocity.velocity didn't return an HttpResponse object. It returned None instead.
+2016-06-07 20:50:53,630 [Thread-2:6592] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view mysiteApp.velocity.velocity didn't return an HttpResponse object. It returned None instead.
+2016-06-07 20:51:26,474 [Thread-2:4232] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view mysiteApp.velocity.velocity didn't return an HttpResponse object. It returned None instead.
+2016-06-07 21:16:36,542 [Thread-2:4272] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 10, in velocity
+    d = Pressure.objects.filter(timestamp_range=(start_time,end_time))
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1149, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1035, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\query.py", line 1330, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'timestamp_range' into field. Choices are: a, b, c, d, device_id, id, timestamp, user, user_id
+2016-06-07 21:17:20,575 [Thread-2:5744] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 11, in velocity
+    velocitytemp = Velocity(user=user, device_id=d.device_id, velocity=10.1231, distance=12.1222)
+AttributeError: 'QuerySet' object has no attribute 'device_id'
+2016-06-07 21:17:41,115 [Thread-2:6652] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 22, in velocity
+    return HttpResponse(d.timestamp)
+AttributeError: 'QuerySet' object has no attribute 'timestamp'
+2016-06-08 10:11:13,568 [Thread-2:6308] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\mysql\base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\cursors.py", line 161, in execute
+    result = self._query(query)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\cursors.py", line 317, in _query
+    conn.query(q)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 835, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 1019, in _read_query_result
+    result.read()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 1302, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 981, in _read_packet
+    packet.check_error()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\err.py", line 120, in raise_mysql_exception
+    _check_mysql_exception(errinfo)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\err.py", line 112, in _check_mysql_exception
+    raise errorclass(errno, errorvalue)
+pymysql.err.ProgrammingError: (1146, "Table 'gait.mysiteapp_velocity' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp.save()
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1060, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\utils.py", line 95, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\utils\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\mysql\base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\cursors.py", line 161, in execute
+    result = self._query(query)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\cursors.py", line 317, in _query
+    conn.query(q)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 835, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 1019, in _read_query_result
+    result.read()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 1302, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 981, in _read_packet
+    packet.check_error()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\err.py", line 120, in raise_mysql_exception
+    _check_mysql_exception(errinfo)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\err.py", line 112, in _check_mysql_exception
+    raise errorclass(errno, errorvalue)
+django.db.utils.ProgrammingError: (1146, "Table 'gait.mysiteapp_velocity' doesn't exist")
+2016-06-08 10:17:38,201 [Thread-4:7148] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\mysql\base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\cursors.py", line 161, in execute
+    result = self._query(query)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\cursors.py", line 317, in _query
+    conn.query(q)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 835, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 1019, in _read_query_result
+    result.read()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 1302, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 981, in _read_packet
+    packet.check_error()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\err.py", line 120, in raise_mysql_exception
+    _check_mysql_exception(errinfo)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\err.py", line 112, in _check_mysql_exception
+    raise errorclass(errno, errorvalue)
+pymysql.err.ProgrammingError: (1146, "Table 'gait.mysiteapp_velocity' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 13, in velocity
+    velocitytemp.save()
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\sql\compiler.py", line 1060, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\utils.py", line 95, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\utils\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\backends\mysql\base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\cursors.py", line 161, in execute
+    result = self._query(query)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\cursors.py", line 317, in _query
+    conn.query(q)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 835, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 1019, in _read_query_result
+    result.read()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 1302, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 981, in _read_packet
+    packet.check_error()
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\err.py", line 120, in raise_mysql_exception
+    _check_mysql_exception(errinfo)
+  File "D:\Python34\lib\site-packages\pymysql-0.7.4-py3.4.egg\pymysql\err.py", line 112, in _check_mysql_exception
+    raise errorclass(errno, errorvalue)
+django.db.utils.ProgrammingError: (1146, "Table 'gait.mysiteapp_velocity' doesn't exist")
+2016-06-08 10:44:19,055 [Thread-2:2760] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 14, in velocity
+    pList.append(timestamp=p.timestamp)
+TypeError: append() takes no keyword arguments
+2016-06-08 10:47:34,380 [Thread-2:7072] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 15, in velocity
+    pList.append(device_id=p.device_id)
+TypeError: append() takes no keyword arguments
+2016-06-08 10:55:30,784 [Thread-2:7060] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 29, in velocity
+    return HttpResponse(d.device_id)
+AttributeError: 'QuerySet' object has no attribute 'device_id'
+2016-06-08 10:56:07,261 [Thread-2:5944] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 29, in velocity
+    return HttpResponse(d.timestamp)
+AttributeError: 'QuerySet' object has no attribute 'timestamp'
+2016-06-08 11:02:39,884 [Thread-2:4052] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 20, in velocity
+    velocitytemp = Velocity(user=1, device_id=vTem.device_id,velocity=10.43431,distance=12.1222)
+AttributeError: 'str' object has no attribute 'device_id'
+2016-06-08 11:03:12,256 [Thread-2:7048] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 20, in velocity
+    velocitytemp = Velocity(user=1,device_id=vTem.device_id,velocity=10.43431,distance=12.1222)
+AttributeError: 'str' object has no attribute 'device_id'
+2016-06-08 11:04:51,154 [Thread-2:5732] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /velocity/
+Traceback (most recent call last):
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\gait-server3\mysiteApp\velocity.py", line 20, in velocity
+    velocitytemp = Velocity(user=1,device_id=vTem,velocity=10.43431,distance=12.1222)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\base.py", line 439, in __init__
+    setattr(self, field.name, rel_obj)
+  File "D:\Python34\lib\site-packages\django-1.9.6-py3.4.egg\django\db\models\fields\related_descriptors.py", line 207, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "1": "Velocity.user" must be a "User" instance.
